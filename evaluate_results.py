@@ -459,17 +459,17 @@ def main():
     # GRPO models
     # common_dir = "grpo/results/deepspeed_zero2"
     # OpenAI models
-    # common_dir = "use_all_annotations/prompt_engineering/results/logic_parsing_dataset/conversational_style"
+    common_dir = "prompt_engineering/results/conversational_style"
     # Baseline
     # common_dir = "grpo/results/baseline"
     # SFT
-    common_dir = "sft/results/conversational_style/deepspeed_zero2"
+    # common_dir = "sft/results/conversational_style/deepspeed_zero2"
 
     model_specific_paths = [
         # GRPO
-        "Qwen/Qwen2.5-7B-Instruct/8/fold0/checkpoint-1500/testset_outputs/testset_results_temperature_0.9.csv",
-        "Qwen/Qwen2.5-7B-Instruct/8/fold1/checkpoint-7000/testset_outputs/testset_results_temperature_0.9.csv",
-        "Qwen/Qwen2.5-7B-Instruct/8/fold2/checkpoint-6000/testset_outputs/testset_results_temperature_0.9.csv",
+        # "Qwen/Qwen2.5-7B-Instruct/8/fold0/checkpoint-1500/testset_outputs/testset_results_temperature_0.9.csv",
+        # "Qwen/Qwen2.5-7B-Instruct/8/fold1/checkpoint-7000/testset_outputs/testset_results_temperature_0.9.csv",
+        # "Qwen/Qwen2.5-7B-Instruct/8/fold2/checkpoint-6000/testset_outputs/testset_results_temperature_0.9.csv",
         # "mistralai/Mistral-7B-Instruct-v0.3/8/fold0/checkpoint-8000/testset_outputs/testset_results_temperature_0.9.csv",
         # "mistralai/Mistral-7B-Instruct-v0.3/8/fold1/checkpoint-7000/testset_outputs/testset_results_temperature_0.9.csv",
         # "mistralai/Mistral-7B-Instruct-v0.3/8/fold2/checkpoint-7500/testset_outputs/testset_results_temperature_0.9.csv",
@@ -480,9 +480,9 @@ def main():
         # "fold0/gpt-4.1-2025-04-14/testset_results.csv",
         # "fold1/gpt-4.1-2025-04-14/testset_results.csv",
         # "fold2/gpt-4.1-2025-04-14/testset_results.csv",
-        # "fold0/o4-mini-2025-04-16/testset_results.csv",
-        # "fold1/o4-mini-2025-04-16/testset_results.csv",
-        # "fold2/o4-mini-2025-04-16/testset_results.csv",
+        "fold0/o4-mini-2025-04-16/testset_results.csv",
+        "fold1/o4-mini-2025-04-16/testset_results.csv",
+        "fold2/o4-mini-2025-04-16/testset_results.csv",
         # Baseline
         # "Qwen/Qwen2.5-7B-Instruct/fold0/testset_results_temperature_0.9.csv",
         # "Qwen/Qwen2.5-7B-Instruct/fold1/testset_results_temperature_0.9.csv",
