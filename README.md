@@ -1,6 +1,6 @@
 # CALSA+ dataset and other additional materials for the paper: Identification of Multiple Logical Interpretations in Counter-Arguments
 
-## The repo current only contains the CALSA+ dataset, the scripts used for training the models will be added soon.
+## The repo currently only contains the CALSA+ dataset, the scripts used for training the models will be added soon.
 
 ## Details of each file
 
